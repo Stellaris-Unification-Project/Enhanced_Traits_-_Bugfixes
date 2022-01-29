@@ -1,0 +1,593 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+###########################
+# Enhanced Traits Leaders #
+###########################
+
+leader_trait_strategist = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_speed_mult = 0.05
+		ship_weapon_range_mult = 0.04
+		ship_fire_rate_mult = 0.04
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_strategist2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_speed_mult = 0.1
+		ship_weapon_range_mult = 0.08
+		ship_fire_rate_mult = 0.08
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_strategist3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_speed_mult = 0.15
+		ship_weapon_range_mult = 0.12
+		ship_fire_rate_mult = 0.12
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_strategist4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_speed_mult = 0.2
+		ship_weapon_range_mult = 0.16
+		ship_fire_rate_mult = 0.16
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+
+leader_trait_nonstrategist = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_speed_mult = -0.05
+		ship_weapon_range_mult = -0.04
+		ship_fire_rate_mult = -0.04
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_nonstrategist2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_speed_mult = -0.1
+		ship_weapon_range_mult = -0.08
+		ship_fire_rate_mult = -0.08
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_nonstrategist3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_speed_mult = -0.15
+		ship_weapon_range_mult = -0.12
+		ship_fire_rate_mult = -0.12
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_nonstrategist4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_speed_mult = -0.2
+		ship_weapon_range_mult = -0.16
+		ship_fire_rate_mult = -0.16
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+
+leader_trait_tactician = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_hull_mult = 0.05
+		ship_weapon_damage = 0.04
+		ship_evasion_mult = 0.04
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_tactician2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_hull_mult = 0.1
+		ship_weapon_damage = 0.08
+		ship_evasion_mult = 0.08
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_tactician3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_hull_mult = 0.15
+		ship_weapon_damage = 0.12
+		ship_evasion_mult = 0.12
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_tactician4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		ship_hull_mult = 0.2
+		ship_weapon_damage = 0.16
+		ship_evasion_mult = 0.16
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+
+leader_trait_nontactician = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_hull_mult = -0.05
+		ship_weapon_damage = -0.04
+		ship_evasion_mult = -0.04
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_nontactician2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_hull_mult = -0.1
+		ship_weapon_damage = -0.08
+		ship_evasion_mult = -0.08
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_nontactician3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_hull_mult = -0.15
+		ship_weapon_damage = -0.12
+		ship_evasion_mult = -0.12
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+leader_trait_nontactician4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_curator.dds"
+	modifier = {
+		ship_hull_mult = -0.2
+		ship_weapon_damage = -0.16
+		ship_evasion_mult = -0.16
+	}
+	leader_trait = { admiral }
+	leader_class = { admiral }
+}
+
+leader_trait_governors = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_charismatic.dds"
+	modifier = {
+		planet_stability_add = 2.5
+		planet_jobs_food_produces_mult = 0.02
+		planet_jobs_minerals_produces_mult = 0.02
+		planet_jobs_energy_produces_mult = 0.02
+		planet_metallurgists_produces_mult = 0.02
+		planet_artisans_produces_mult = 0.02
+		
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_governors2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_charismatic.dds"
+	modifier = {
+		planet_stability_add = 5
+		planet_jobs_food_produces_mult = 0.04
+		planet_jobs_minerals_produces_mult = 0.04
+		planet_jobs_energy_produces_mult = 0.04
+		planet_metallurgists_produces_mult = 0.04
+		planet_artisans_produces_mult = 0.04
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_governors3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_charismatic.dds"
+	modifier = {
+	planet_stability_add = 7.5
+	planet_jobs_food_produces_mult = 0.06
+	planet_jobs_minerals_produces_mult = 0.06
+	planet_jobs_energy_produces_mult = 0.06
+	planet_metallurgists_produces_mult = 0.06
+	planet_artisans_produces_mult = 0.06
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_governors4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_charismatic.dds"
+	modifier = {
+		planet_stability_add = 10
+		planet_jobs_food_produces_mult = 0.08
+		planet_jobs_minerals_produces_mult = 0.08
+		planet_jobs_energy_produces_mult = 0.08
+		planet_metallurgists_produces_mult = 0.08
+		planet_artisans_produces_mult = 0.08
+	
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+
+leader_trait_nongovernors = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_traumatized.dds"
+	modifier = {
+		planet_stability_add = -2.5
+		planet_jobs_food_produces_mult = -0.02
+		planet_jobs_minerals_produces_mult = -0.02
+		planet_jobs_energy_produces_mult = -0.02
+		planet_metallurgists_produces_mult = -0.02
+		planet_artisans_produces_mult = -0.02
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_nongovernors2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_traumatized.dds"
+	modifier = {
+		planet_stability_add = -5
+		planet_jobs_food_produces_mult = -0.04
+		planet_jobs_minerals_produces_mult = -0.04
+		planet_jobs_energy_produces_mult = -0.04
+		planet_metallurgists_produces_mult = -0.04
+		planet_artisans_produces_mult = -0.04
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_nongovernors3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_traumatized.dds"
+	modifier = {
+		planet_stability_add = -7.5
+		planet_jobs_food_produces_mult = -0.06
+		planet_jobs_minerals_produces_mult = -0.06
+		planet_jobs_energy_produces_mult = -0.06
+		planet_metallurgists_produces_mult = -0.06
+		planet_artisans_produces_mult = -0.06
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_nongovernors4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_traumatized.dds"
+	modifier = {
+		planet_stability_add = -10
+		planet_jobs_food_produces_mult = -0.08
+		planet_jobs_minerals_produces_mult = -0.08
+		planet_jobs_energy_produces_mult = -0.08
+		planet_metallurgists_produces_mult = -0.08
+		planet_artisans_produces_mult = -0.08
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+
+leader_trait_general_strategist = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		armies_upkeep_mult = -0.1
+		army_disengage_chance_mult = 0.1
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_strategist2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		armies_upkeep_mult = -0.2
+		army_disengage_chance_mult = 0.2
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_strategist3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		armies_upkeep_mult = -0.3
+		army_disengage_chance_mult = 0.3
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_strategist4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		armies_upkeep_mult = -0.4
+		army_disengage_chance_mult = 0.4
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+
+leader_trait_general_nonstrategist = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		armies_upkeep_mult = 0.1
+		army_disengage_chance_mult = -0.1
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_nonstrategist2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		armies_upkeep_mult = 0.2
+		army_disengage_chance_mult = -0.2
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_nonstrategist3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		armies_upkeep_mult = 0.3
+		army_disengage_chance_mult = -0.3
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_nonstrategist4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		armies_upkeep_mult = 0.4
+		army_disengage_chance_mult = -0.4
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+
+leader_trait_general_tactician = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		army_morale = 0.1
+		army_damage_mult = 0.1
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_tactician2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		army_morale = 0.2
+		army_damage_mult = 0.2
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_tactician3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		army_morale = 0.3
+		army_damage_mult = 0.3
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_tactician4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_glory_seeker.dds"
+	modifier = {
+		army_morale = 0.4
+		army_damage_mult = 0.4
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+
+leader_trait_general_nontactician = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		army_morale = -0.1
+		army_damage_mult = -0.1
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_nontactician2 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		army_morale = -0.2
+		army_damage_mult = -0.2
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_nontactician3 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		army_morale = -0.3
+		army_damage_mult = -0.3
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}
+leader_trait_general_nontactician4 = {
+	cost = 0
+	modification = no
+	initial = no
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_trait/leader_trait_curator.dds"
+	modifier = {
+		army_morale = -0.4
+		army_damage_mult = -0.4
+	}
+	leader_trait = { general }
+	leader_class = { general }
+}

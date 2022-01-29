@@ -1,0 +1,15 @@
+Fixes:
+
+- Adds the correct text to the General traits.
+
+- Fixes the icons for some of the Admiral and General traits
+
+- Fixes 2 General traits not working correctly
+
+- Fixes the talented governor traits not having the correct modifier for metallurgists and artisan jobs.
+
+- Fixes the traits to have the correct things for lithoids.
+
+- Fixes the internal name of "trait_veneralbe" to "trait_venerable" (Purely for my own sanity, no in game change for this)
+
+- Other internal stuff
